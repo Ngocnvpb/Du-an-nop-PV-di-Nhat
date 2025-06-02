@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cửa Hàng Sàn Gỗ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 2rem;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      color: #333;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 16px;
+      margin: 10px 0;
+      background-color: #0077cc;
+      color: white;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+    .product-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .product {
+      background: white;
+      border: 1px solid #ccc;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .product img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .cart-button {
+      background-color: #28a745;
+      color: white;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .cart-button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <h1>Chào mừng đến với Nguyễn Viết Phạm Bảo Ngọc - Sàn Gỗ Cao Cấp</h1>
+
+  <p>Chúng tôi cung cấp các loại sàn gỗ chất lượng từ 
+    <a href="https://santot.vn" target="_blank">santot.vn</a>
+  </p>
+
+  <div class="product-list">
+    <div class="product">
+      <img src="https://via.placeholder.com/300x150?text=San+Go+1" alt="Sản phẩm 1">
+      <h3>Sàn Gỗ Mẫu 1</h3>
+      <p>Giá: 500,000 VNĐ/m²</p>
+      <button class="cart-button">Thêm vào giỏ</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x150?text=San+Go+2" alt="Sản phẩm 2">
+      <h3>Sàn Gỗ Mẫu 2</h3>
+      <p>Giá: 600,000 VNĐ/m²</p>
+      <button class="cart-button">Thêm vào giỏ</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x150?text=San+Go+3" alt="Sản phẩm 3">
+      <h3>Sàn Gỗ Mẫu 3</h3>
+      <p>Giá: 700,000 VNĐ/m²</p>
+      <button class="cart-button">Thêm vào giỏ</button>
+    </div>
+  </div>
+
+  <p><strong>Thông tin liên hệ:</strong><br>
+    Địa chỉ: 10/20 Trần Quang Khải, Phú Hội, Huế<br>
+    Điện thoại: <a href="tel:0935360860">0935.360.860</a><br>
+    Email: <a href="mailto:ngocnvpb@gmail.com">ngocnvpb@gmail.com</a>
+  </p>
+
+  <p>
+    <a class="button" href="https://zalo.me/0935360860" target="_blank">Tư vấn ngay qua Zalo</a><br>
+    <a class="button" href="tel:0935360860">Gọi ngay: 0935.360.860</a>
+  </p>
+</body>
+</html>
